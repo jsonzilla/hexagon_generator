@@ -1,3 +1,13 @@
-# Base Template
+# Hexagon Generator
 
-This is a template for a new project. It contains a basic structure for a project, including a `README.md` file, a `LICENSE` file, a `CONTRIBUTING.md` file, and a `CODE_OF_CONDUCT.md` file.
+Generate a hexagon with a color and a text in a png file.
+
+```py
+python .\main.py --filename .png --fill_color "#00FF00"  --border_color "#000000" --text "CENTER_TEXT"
+```
+
+## Arguments
+* ```--filename``` filename to save
+* ```--fill_color``` fill color of the hexagon hex format'
+* ```--border_color``` border color of the hexagon hex format
+* ```--text``` text to add in the hexagon
